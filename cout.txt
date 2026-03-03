@@ -1,11 +1,12 @@
 #include <iostream>
 
+void cout(std::string text)
+{
+    std::cout << "bonjour" << std::endl;
+}
+
 int main() {
     cout("bonjour");
     return 0;
 }
 
-void cout(std::string text)
-{
-    std::cout << "bonjour" << std::endl;
-}
