@@ -1,6 +1,11 @@
 #include <iostream>
 
 int main() {
-    std::cout << "bonjour" << std::endl;
+    cout("bonjour");
     return 0;
+}
+
+void cout(std::string text)
+{
+    std::cout << "bonjour" << std::endl;
 }
