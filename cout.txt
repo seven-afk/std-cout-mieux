@@ -6,7 +6,9 @@ void cout(std::string text)
 }
 
 int main() {
-    cout("bonjour");
+    for (int i = 0; i < 5; ++i)
+        cout("bonjour");
     return 0;
 }
+
 
